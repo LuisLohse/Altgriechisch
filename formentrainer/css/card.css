@@ -1,0 +1,21 @@
+#card {
+  border: 2px solid #545454;
+  width: 90vw;
+  height: 35vw;
+  max-height: 40vh;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition-duration: .5s;
+  transition-property: transform;
+  transition-timing-function: ease-in;
+}
+
+#card span {
+  font-size: 3rem;
+  color: #696969;
+}

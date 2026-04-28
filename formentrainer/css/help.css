@@ -1,0 +1,52 @@
+#help_field {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid black;
+  transition-duration: .3s;
+  cursor: help;
+}
+
+#help_field span {
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#help_field:hover {
+  transform: scale(1.05);
+}
+
+#help_popUp {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, 0.3);
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .5s;
+  cursor: pointer;
+}
+
+#inner_popUp {
+  width: 90%;
+  padding: .5rem;
+  background-color: #333;
+  color: white;
+  cursor: default;
+  border-radius: 10px;
+}
+
+#inner_popUp a {
+  text-decoration: none;
+}

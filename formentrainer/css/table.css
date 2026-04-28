@@ -1,0 +1,45 @@
+#table_form {
+  width: 90%;
+  overflow-x: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  padding-left: 2rem;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.input_table {
+  margin-right: .5rem;
+}
+
+/* === RESPONSIVE === */
+
+@media (max-width: 800px) {
+  th {
+    padding-left: 8px;
+  }
+
+  table {
+    font-size: .8rem;
+  }
+}

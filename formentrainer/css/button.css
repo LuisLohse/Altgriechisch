@@ -1,0 +1,15 @@
+#submit_button, #new_button {
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+#button_container {
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+#new_button {
+  display: none;
+}
